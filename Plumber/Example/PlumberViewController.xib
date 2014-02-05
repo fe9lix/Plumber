@@ -6,6 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PlumberViewController">
             <connections>
+                <outlet property="plumberControl" destination="Fvq-1M-0wP" id="fwm-Bi-edA"/>
                 <outlet property="view" destination="1" id="zSZ-vP-8gm"/>
             </connections>
         </placeholder>
