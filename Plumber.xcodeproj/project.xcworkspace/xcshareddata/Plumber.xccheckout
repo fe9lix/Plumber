@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>923114C4-ADD5-40ED-8F6B-3ABD5D4056D8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Plumber</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>49B50EDF-B4B1-4941-853A-6474246154DA</key>
+		<string>https://github.com/fe9lix/Plumber.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Plumber.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>49B50EDF-B4B1-4941-853A-6474246154DA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/fe9lix/Plumber.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>49B50EDF-B4B1-4941-853A-6474246154DA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>49B50EDF-B4B1-4941-853A-6474246154DA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Plumber</string>
+		</dict>
+	</array>
+</dict>
+</plist>

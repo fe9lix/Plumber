@@ -109,11 +109,9 @@
 - (BOOL)continueTrackingWithTouch:(UITouch *)touch withEvent:(UIEvent *)event {
     [super continueTrackingWithTouch:touch withEvent:event];
     
-    CGPoint point = [touch locationInView:self];
-    
     [CATransaction begin];
     [CATransaction setDisableActions:YES];
-    self.hitLayer.position = point;
+    self.hitLayer.position = [touch locationInView:self];
     [CATransaction commit];
     
     [self setNeedsDisplay];
