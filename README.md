@@ -3,7 +3,7 @@ Plumber
 
 ![CodingKeys](https://github.com/fe9lix/Plumber/blob/gh-pages/images/plumber.png?raw=true)
 
-Plumber is a tiny Objective-C library for creating curved connection lines between nodes (for example, for flowcharts and the like). I have created it since a quick Google search did not reveal anything simple for iOS. The curve calculation algorithm is a direct port of the function used in the [Graffle Example](http://raphaeljs.com/graffle.html) of the vector drawing library [Raphaël](http://raphaeljs.com/).
+Plumber is a tiny Objective-C library for creating curved connection lines between nodes (for flowcharts, for example). The constructed path connects the bounding boxes such that the distance between two sides is minimized. I've created it since a quick Google search did not reveal anything simple for iOS. The curve calculation algorithm is a direct port of the function used in the [Graffle Example](http://raphaeljs.com/graffle.html) of the vector drawing library [Raphaël](http://raphaeljs.com/).
 
 ### Installation
 Just drag the folder `Plumber/Plumber` with its two classes `Plumber` and `PlumberConnection` into your Xcode project.
