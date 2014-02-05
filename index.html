@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Plumber by fe9lix</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Plumber</h1>
+        <p></p>
+
+        <p class="view"><a href="https://github.com/fe9lix/Plumber">View the Project on GitHub <small>fe9lix/Plumber</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/fe9lix/Plumber/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/fe9lix/Plumber/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/fe9lix/Plumber">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="plumber" class="anchor" href="#plumber"><span class="octicon octicon-link"></span></a>Plumber</h1>
+
+<p>Plumber is a tiny Objective-C library for creating curved connection lines between nodes (for example, for flowcharts and the like). I have created it since a quick Google search did not reveal anything simple for iOS. The curve calculation algorithm is a direct port of the function used in the <a href="http://raphaeljs.com/graffle.html">Graffle Example</a> of the vector drawing library <a href="http://raphaeljs.com/">Raphaël</a>.</p>
+
+<h3>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h3>
+
+<p>Just drag the folder <code>Plumber/Plumber</code> with its two classes <code>Plumber</code> and <code>PlumberConnection</code> into your Xcode project.</p>
+
+<h3>
+<a name="how-to-use-it" class="anchor" href="#how-to-use-it"><span class="octicon octicon-link"></span></a>How to use it</h3>
+
+<p>The API couldn't be simpler: There's just one method <code>connect</code> that takes two CGRects (usually from a UIView or CALayer) and returns a new <code>PlumberConnection</code>, which is an immutable value object holding the original CGRects and the calculated UIBezierPath.</p>
+
+<div class="highlight highlight-objective-c"><pre><span class="n">Plumber</span> <span class="o">*</span><span class="n">plumber</span> <span class="o">=</span> <span class="p">[</span><span class="n">Plumber</span> <span class="n">new</span><span class="p">];</span>
+<span class="n">PlumberConnection</span> <span class="o">*</span><span class="n">connection</span> <span class="o">=</span> <span class="p">[</span><span class="n">plumber</span> <span class="n">connectFrom</span><span class="o">:</span><span class="n">layerA</span><span class="p">.</span><span class="n">frame</span> <span class="n">to</span><span class="o">:</span><span class="n">layerB</span><span class="p">.</span><span class="n">frame</span><span class="p">];</span>
+<span class="n">UIBezierPath</span> <span class="o">*</span><span class="n">path</span> <span class="o">=</span> <span class="n">connection</span><span class="p">.</span><span class="n">path</span><span class="p">;</span>
+<span class="c1">// draw the path...</span>
+
+</pre></div>
+
+<p>See the example app (<code>Plumber/Example</code>) on how you could implement draggable shapes with their connection lines updated.</p>
+
+<h3>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h3>
+
+<p><a href="http://opensource.org/licenses/MIT">The MIT License</a></p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/fe9lix">fe9lix</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
