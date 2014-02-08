@@ -487,6 +487,7 @@
 				DC85833318A1A1D3003B152A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC85833418A1A1D3003B152A /* Build configuration list for PBXNativeTarget "PlumberTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +496,7 @@
 				DC85833618A1A1D3003B152A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
